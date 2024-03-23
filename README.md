@@ -144,3 +144,207 @@ To https://github.com/thaniagnnelwan/belajarGIT.git
 nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
 $
 
+nelwa@Thania MINGW64 ~ (master)
+$ cd Desktop
+
+nelwa@Thania MINGW64 ~/Desktop (master)
+$ cd BelajarGIT
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch
+  Tugas-css
+  Tugas-git
+  Tugas-html
+  Tugas-js
+* main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 783 bytes | 783.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/thaniagnnelwan/belajarGIT.git
+   2d90f19..acae08f  main -> main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch Tugas-php
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git checkout Tugas-php
+Switched to branch 'Tugas-php'
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ touch Tugas-php.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ git add Tugas-php.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ git commit -m "menambahkan file Tugas-php.txt"
+[Tugas-php 0522af4] menambahkan file Tugas-php.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tugas-php.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ git add Tugas-php.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ git commit -m "menambahkan perubahan pada Tugas-php.txt"
+[Tugas-php 01dde24] menambahkan perubahan pada Tugas-php.txt
+ 1 file changed, 1 insertion(+)
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-php)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git merge Tugas-php
+Updating acae08f..01dde24
+Fast-forward
+ Tugas-php.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Tugas-php.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 475 bytes | 475.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/thaniagnnelwan/belajarGIT.git
+   acae08f..01dde24  main -> main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch Tugas-midProject
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git checkout Tugas-midProject
+Switched to branch 'Tugas-midProject'
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ touch Tugas-midProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ git add Tugas-midProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ git commit -m "menambahkan file Tugas-midProject.txt"
+[Tugas-midProject c807b88] menambahkan file Tugas-midProject.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tugas-midProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ git add Tugas-midProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ git commit -m "menambahkan perubahan pada Tugas-midProject.txt"
+[Tugas-midProject 00a022b] menambahkan perubahan pada Tugas-midProject.txt
+ 1 file changed, 1 insertion(+)
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-midProject)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git merge Tugas-midProject
+Updating 01dde24..00a022b
+Fast-forward
+ Tugas-midProject.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Tugas-midProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 528 bytes | 528.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/thaniagnnelwan/belajarGIT.git
+   01dde24..00a022b  main -> main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch Tugas-finalProject
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch
+  Tugas-css
+  Tugas-finalProject
+  Tugas-git
+  Tugas-html
+  Tugas-js
+  Tugas-midProject
+  Tugas-php
+* main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git branch
+  Tugas-css
+  Tugas-finalProject
+  Tugas-git
+  Tugas-html
+  Tugas-js
+  Tugas-midProject
+  Tugas-php
+* main
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git checkout Tugas-finalProject
+Switched to branch 'Tugas-finalProject'
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ touch Tugas-finalProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ git add Tugas-finalProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ git commit -m "menambahkan file Tugas-finalProject.txt"
+[Tugas-finalProject 1d828a7] menambahkan file Tugas-finalProject.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tugas-finalProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ git add Tugas-finalProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ git commit -m "menambahkan perubahan pada Tugas-finalProject.txt"
+[Tugas-finalProject e16f4d1] menambahkan perubahan pada Tugas-finalProject.txt
+ 1 file changed, 1 insertion(+)
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (Tugas-finalProject)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git merge Tugas-finalProject
+Updating 00a022b..e16f4d1
+Fast-forward
+ Tugas-finalProject.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Tugas-finalProject.txt
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 503 bytes | 251.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/thaniagnnelwan/belajarGIT.git
+   00a022b..e16f4d1  main -> main
+
