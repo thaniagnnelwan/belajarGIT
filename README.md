@@ -348,3 +348,21 @@ remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To https://github.com/thaniagnnelwan/belajarGIT.git
    00a022b..e16f4d1  main -> main
 
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 2.42 KiB | 190.00 KiB/s, done.
+From https://github.com/thaniagnnelwan/belajarGIT
+ * branch            main       -> FETCH_HEAD
+   e16f4d1..20ef8b4  main       -> origin/main
+Updating e16f4d1..20ef8b4
+Fast-forward
+ README.md | 204 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 204 insertions(+)
+
+nelwa@Thania MINGW64 ~/Desktop/BelajarGIT (main)
+$ git push origin --all
+Everything up-to-date
