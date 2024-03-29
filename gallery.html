@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas html 2024</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Website</h1>
+    <h2>THANIA G.N NELWAN</h2>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Blog &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="article1.html">Satu Yang Paling Sederhana?</a>
+                    <a href="article2.html">Dualitas dan Keselarasan</a>
+                    <a href="article3.html">Angka 3</a>
+                </div>
+            </li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -20,19 +28,19 @@
 </header>
 
 <main>
-    <section>
+    <section class="gallery-section">
         <h2>Gallery</h2>
-        <div>
+        <div class="gallery-container">
             <figure>
-                <img src="gbr1.jpg" alt="Gambar 1" width="300">
+                <img src="gbr1.jpg" alt="Gambar 1">
                 <figcaption>Gambar 1</figcaption>
             </figure>
             <figure>
-                <img src="gbr2.jpg" alt="Gambar 2" width="300">
+                <img src="gbr2.jpg" alt="Gambar 2">
                 <figcaption>Gambar 2</figcaption>
             </figure>
             <figure>
-                <img src="gbr3.jpg" alt="Gambar 3" width="300">
+                <img src="gbr3.jpg" alt="Gambar 3">
                 <figcaption>Gambar 3</figcaption>
             </figure>
         </div>

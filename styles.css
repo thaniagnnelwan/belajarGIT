@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5A9BD4; /* Biru Serenity */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Membuat ruang antara elemen-elemen di header */
+    align-items: center; /* Posisikan elemen secara vertikal di tengah */
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.homepage {
+    background-color: #F7CAC9; /* Soft Pink */
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.homepage h2 {
+    margin-top: 0;
+}
+
+.homepage p {
+    margin-bottom: 20px;
+}
+
+/* Tambahkan kode CSS berikut untuk dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F7CAC9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Tambahkan bayangan */
+    border-radius: 5px; /* Tambahkan sudut bulat */
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.gallery-section.gallery-section {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.contact-section {
+    text-align: center;
+    background-color: #F7CAC9; /* Soft Pink */
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Efek bayangan */
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+    color: #555; /* Warna teks yang lebih gelap */
+}
+
+.contact-section address {
+    font-style: normal;
+    color: #333; /* Warna teks yang lebih gelap */
+}
+
+.article-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.article-section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
