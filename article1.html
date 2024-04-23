@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas html 2024</title>
+    <title>Personal Homepage | Article | Thania Nelwan - UNSRAT</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
-<header>
-    <h2>THANIA G.N NELWAN</h2>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="dropdown">
-                <a class="dropbtn">Blog &#9662;</a>
-                <div class="dropdown-content">
-                    <a href="article1.html">Satu Yang Paling Sederhana?</a>
-                    <a href="article2.html">Dualitas dan Keselarasan</a>
-                    <a href="article3.html">Angka 3</a>
-                </div>
-            </li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <h2>Thania</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown" id="blog-dropdown">
+                    <a class="dropbtn" onclick="toggleDropdown()">Blog &#9662;</a>
+                    <div class="dropdown-content" id="blog-dropdown-content">
+                        <a href="article1.html">Satu Yang Paling Sederhana?</a>
+                        <a href="article2.html">Dualitas dan Keselarasan</a>
+                        <a href="article3.html">Angka 3</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <main>
     <section class="article-section">
